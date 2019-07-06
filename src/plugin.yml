@@ -1,0 +1,22 @@
+name: BoatOnRoad
+main: com.github.rnlin.boat.on.road.BoatOnRoad
+version: 0.0.0
+author: rnlin
+description: BoatOnRoad
+
+commands:
+  template:
+    description: It's main commands of this plugin.
+    aliases: [tm,tmp,tmplt]
+    usage: 
+           /<command> [true|false] - 有効と無効を切り替えます
+           /<command> r <updatefrequency> - メーターの更新頻度を設定します
+    permisson: temp.late
+    permission-message: You don't have the permission "<permission>".
+
+permissions:
+  temp.late:
+    description: speedmeterコマンドの使用権限
+    default: op
+
+  
